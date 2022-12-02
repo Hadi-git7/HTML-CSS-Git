@@ -1,1 +1,44 @@
 /* Add your own CSS code below */
+span.heart {
+  color: #c85308;
+}
+@media screen and (min-width: 992px) {
+  .hero__title {
+    font-size: 45px;
+  }
+}
+.main-nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (min-width: 767px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 767px) {
+  .views {
+    display: flex;
+    align-items: center;
+  }
+}
+.view-list__item {
+  margin-left: 20px;
+}
+.views__all {
+  margin-left: auto;
+}
+.main-article {
+  max-width: 50em;
+  line-height: 30px;
+}
+.site-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+span.codi {
+  font-weight: normal;
+}
